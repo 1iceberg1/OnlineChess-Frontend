@@ -36,3 +36,119 @@
     transform: rotate(360deg);
   }
 }
+
+.chess-session {
+  border-radius: 30px;
+  background-color: #F0F0F0;
+}
+
+.chess-board {
+  width: 640px;
+}
+
+.chess-class-rect {
+  max-width: 100%;
+  min-height: 150px;
+  border-radius: 30px;
+  background-image: linear-gradient(#CCCCCC, #FFFFFF, #CCCCCC, #FFFFFF, #C4C4C4);
+  padding: 20px;
+}
+
+.chess-px-1 {
+  padding: 10px;
+}
+
+.chess-chapter-rect {
+  height: 65%;
+  border-radius: 30px;
+  background: rgba(255,255,255,0.5);
+  margin: 10px auto;
+}
+
+.chess-chapter-title {
+  border-radius: 40px;
+  height: 80px;
+}
+
+.chess-chapter-table {
+  max-height: 80%;
+}
+
+.chess-table-row {
+  color: red;
+  font-weight: bold;
+}
+
+.chess-title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: linear-gradient(rgba(183,151,90,0.595), rgba(138,110,62,0.7), rgba(231,193,115,0.7), rgba(231,193,115,0.7), rgba(138,110,62,0.7));
+}
+
+.chess-title-text {
+  color: #6D5733;
+  font-family: Poppins;
+  font-size: 30px;
+}
+
+.chess-chat-title {
+  border-radius: 30px;
+  height: 60px;
+}
+
+.chess-chat-rect {
+  height: 30%;
+  border-radius: 30px;
+  background: rgba(255,255,255,0.5);
+  margin: 10px auto;
+}
+
+.chess-chat-box {
+  height: 50%;
+  margin: 10px;
+}
+
+.chess-lesson-rect {
+  min-height: 40px;
+  background-image: linear-gradient(#CCCCCC, #FFFFFF, #CCCCCC, #FFFFFF, #C4C4C4);
+  width: 100%;
+  height: 50px;
+  background-color: #3498db;
+  border-top-left-radius: 25px;
+  border-bottom-left-radius: 25px;
+  border-top-right-radius: 25px;
+  border-bottom-right-radius: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  margin: 10px auto;
+}
+
+.chess-edu-rect {
+  border-radius: 30px;
+  background: rgba(255,255,255,0.5);
+  text-align: center; 
+  margin: 0px 3px;
+  border-width: 2px;
+  border-color: #CCCCCC;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.chess-teacher-rect {
+  max-width: 16%;
+  flex: 2;
+}
+
+.chess-student-rect {
+  max-width: 10%;
+  flex: 1;
+}
+
+.flex-container {
+  display: flex;
+}
