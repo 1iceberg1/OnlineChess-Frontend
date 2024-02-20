@@ -21,7 +21,8 @@ function Header({ game }: Props) {
       <h2>
         {gameOver
           ? `Whoops! The game is over. The winner is: ${game.getLoser()}`
-          : `Turn: ${game.getOrientation()}`}
+          // : `Turn: ${game.getOrientation()}`}
+          : ``}
       </h2>
     </div>
   );

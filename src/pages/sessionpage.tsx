@@ -6,7 +6,7 @@ import Controls from "../components/controls";
 import GameSession from "../lib/session";
 import Header from "../components/header";
 
-export const LandingPage = () => {
+export const SessionPage = () => {
 
   const [game, setGame] = useState<GameSession>();
 

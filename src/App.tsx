@@ -1,5 +1,5 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
-import { LandingPage } from "./pages/landingpage";
+import { SessionPage } from "./pages/sessionpage";
 import './App.css';
 
 function App() {
@@ -7,7 +7,7 @@ function App() {
     <>
       <BrowserRouter>
         <Routes>
-          <Route path="/" element={<LandingPage />} />
+          <Route path="/" element={<SessionPage />} />
         </Routes>
       </BrowserRouter>
     </>    
